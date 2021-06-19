@@ -5,20 +5,13 @@
 欢迎阅读自带脚本的[说明](scripts/README.md)，它将教会你如何`安装插件`，`禁用和启用脚本`，`修改包的更新频道`等基本操作。
 
 ## 简介
-
-`iTX Technologies Mirai Console Loader`（下简称`MCL`）采用模块化设计，包含以下几个基础模块：
-
-* `Script` 脚本执行模块，用于加载和执行脚本，`MCL`的主要功能均由脚本实现。脚本执行有各个阶段，详见注释。
-* `Config` 配置文件模块，用于配置的持久化。
-* `Downloader` 下载器模块，用于下载文件，并实时返回进度。
-* `Logger` 日志模块，用于向控制台输出日志。
+本项目为MCL_v1.0.5的模板文件，作为个人备份项目
 
 ## 启动`MCL`
 
-1. 安装 Java 运行时（版本必须 >= 11）
-1. 从 [Releases](https://github.com/iTXTech/mirai-console-loader/releases) 下载最新版本的`MCL`
-1. 解压到某处
-1. 在命令行中执行`.\mcl`以启动`MCL`
+1. 安装 [Java 运行环境](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/)（版本必须 >= 11）
+1. 下载本项目文件并解压
+1. 双击mcl.cmd(Windows) 或 执行`./mcl`(Linux) 以启动`MCL`
 
 ## `Mirai Repo` 列表
 
